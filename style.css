@@ -1,10 +1,66 @@
+nav {
+    display: block;
+    padding: 15px 15px 15px 15px;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+li a {
+    display: block;
+    padding: 0 16px 0 7px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.about {
+    float: left ;
+}
+
+.store {
+    float: left;
+}
+
+.products {
+    float: right;
+    color: #5f6368;
+}
+
+.user {
+    float: right;
+    border-radius: 50%;
+}
+
+products:hover {
+    color: #5f6368;
+}
+
+.gmail {
+    float: right;
+}
+
+.images {
+    float: right;
+}
+
 div {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    position: relative;
 }
 
+.google-logo-container {
+    margin-right: 0 !important;
+}
+
+.google-logo {
+    margin-top: 20px;
+}
 
 form {
     display: flex;
@@ -13,12 +69,8 @@ form {
     position: relative;
 }
 
-span {
-    position: absolute;
-}
-
 input {
-    width: 40%;
+    width: 35%;
     padding: 14px;
     border: 1px solid lightgray;
     border-radius: 50px;
@@ -29,6 +81,7 @@ input {
 button {
     background-color: #f8f9fa;
     padding: 12px;
+    margin: 5px;
     border: 1px solid transparent;
     border-radius: 4px;
 }
@@ -37,3 +90,56 @@ button:hover {
     border: 1px solid lightgray;
 }
 
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 5px 5px 20px 5px;
+}
+
+footer {
+    display: block;
+    padding: 8px 15px 8px 15px;
+    background-color: rgb(242 242 242);
+    color: rgba(0,0,0,.54)
+}
+
+.f1 {
+    margin-top: 100px;
+    border-bottom: 1px solid lightgray;
+}
+
+.country-code {
+    float: left;
+    color: rgba(0,0,0,.54);
+}
+
+.advertising {
+    float: left;
+    color: rgba(0,0,0,.54);
+}
+
+.business {
+    float: left;
+    color: rgba(0,0,0,.54);
+}
+
+.how-search-works {
+    float: left;
+    color: rgba(0,0,0,.54);
+}
+
+.privacy {
+    float: right;
+    color: rgba(0,0,0,.54);
+}
+
+.terms {
+    float: right;
+    color: rgba(0,0,0,.54);
+}
+
+.settings {
+    float: right;
+    color: rgba(0,0,0,.54);
+}
