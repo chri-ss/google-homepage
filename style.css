@@ -1,81 +1,62 @@
-nav {
-    display: block;
-    padding: 15px 15px 15px 15px;
+body {
+    height: 100vh;
 }
 
-ul {
-    display: block;
-    list-style-type: none;
-    padding: 10px;
-    margin: 0;
-}
+/*top navbar*/
 
-li a {
-    display: block;
-    padding: 0 16px 0 7px;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-}
-
-.about {
-    float: left ;
-}
-
-.store {
-    float: left;
-}
-
-.products {
-    float: right;
-    color: #5f6368;
-}
-
-.user {
-    float: right;
-    border-radius: 50%;
-}
-
-products:hover {
-    color: #5f6368;
-}
-
-.gmail {
-    float: right;
-}
-
-.images {
-    float: right;
-}
-
-div {
+.navbar-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    justify-content: space-between;
+    width: 100vw;
+    height: 5vh;
 }
 
-.google-logo-container {
-    margin-right: 0 !important;
+.left {
+    display: flex;
+    justify-content: flex-start; 
+    padding: 0.25em;
+    margin: 0.25em;   
 }
 
-.google-logo {
-    margin-top: 20px;
+.right {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.25em;
+    margin: 0.25em;  
 }
 
-form {
+/*logo*/
+
+.google.logo {
+    display: flex;
+}
+
+
+.img-wrap {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+}
+
+/*search input*/
+
+.search {
+    display: flex;
+    justify-content: center;
 }
 
 input {
-    width: 35%;
-    padding: 14px;
+    width: 38%;
     border: 1px solid lightgray;
+    padding: 8px;
     border-radius: 50px;
-    outline: none;
-    margin: 25px;
+}
+
+/*buttons*/
+
+.buttons {
+    display: flex;
+    justify-content: center;
 }
 
 button {
@@ -86,60 +67,32 @@ button {
     border-radius: 4px;
 }
 
+
 button:hover {
     border: 1px solid lightgray;
 }
 
+/*language blurb*/
 
-p {
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    margin: 5px 5px 20px 5px;
+.language {
+    display: flex;
+    justify-content: center;
 }
 
-footer {
-    display: block;
-    padding: 8px 15px 8px 15px;
+/*footers*/
+
+.footer1 {
+    display: flex;
+    justify-content: flex-start; 
+    padding: 0.25em;  
     background-color: rgb(242 242 242);
-    color: rgba(0,0,0,.54)
-}
-
-.f1 {
-    margin-top: 100px;
-    border-bottom: 1px solid lightgray;
-}
-
-.country-code {
-    float: left;
     color: rgba(0,0,0,.54);
 }
 
-.advertising {
-    float: left;
-    color: rgba(0,0,0,.54);
-}
-
-.business {
-    float: left;
-    color: rgba(0,0,0,.54);
-}
-
-.how-search-works {
-    float: left;
-    color: rgba(0,0,0,.54);
-}
-
-.privacy {
-    float: right;
-    color: rgba(0,0,0,.54);
-}
-
-.terms {
-    float: right;
-    color: rgba(0,0,0,.54);
-}
-
-.settings {
-    float: right;
+.footer2 {
+    display: flex;
+    justify-content: flex-start; 
+    padding: 0.25em;
+    background-color: rgb(242 242 242);
     color: rgba(0,0,0,.54);
 }
